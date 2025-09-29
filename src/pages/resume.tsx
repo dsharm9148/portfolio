@@ -25,11 +25,11 @@ export default function Resume() {
         {/* Right: About Me */}
         <div className="flex-1 text-center md:text-left mt-8 md:mt-0 md:ml-12">
           <h1 className="text-5xl font-bold text-gray-800">
-            Hi, I'm Diya Sharma!
+            Hi, I&apos;m Diya Sharma!
           </h1>
           <p className="mt-6 text-lg text-gray-600 max-w-lg">
-            I'm a Computer Science student at Georgia Tech passionate about AI,
-            data science, and neuroscience. I've had expereince with biomedical research and computational data science. 
+            I&apos;m a Computer Science student at Georgia Tech passionate about AI,
+            data science, and neuroscience. I&apos;ve had expereince with biomedical research and computational data science. 
             Check out my resume and feel free to reach out to me with any questions, opportunities, or collaborations.
           </p>
         </div>

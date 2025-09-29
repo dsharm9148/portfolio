@@ -13,10 +13,10 @@ export default function TechniquePage() {
         <section className="bg-gray-200 rounded-lg p-8 max-w-5xl mx-auto mb-12 shadow-inner">
           <h2 className="text-2xl font-bold mb-4 text-center">About The Technique</h2>
           <p className="text-gray-700 text-lg leading-relaxed text-center">
-            The Technique is Georgia Tech’s student-run newspaper, covering campus news, sports, culture, and opinions since 1911. 
-            Known as "the South’s liveliest college newspaper," it provides students with insightful reporting and a platform to engage with the Tech community. 
+            The Technique is Georgia Tech&apos;s student-run newspaper, covering campus news, sports, culture, and opinions since 1911. 
+            Known as the South&apos;s liveliest college newspaper, it provides students with insightful reporting and a platform to engage with the Tech community. 
             As a sports contributor, I write articles highlighting major athletic events at Tech as well as national news. 
-            Here you’ll find a selection of my work, with links to the full stories on nique.net.
+            Here you&apos;ll find a selection of my work, with links to the full stories on nique.net.
           </p>
         </section>
 

@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from "next/link";
+
 
 export default function Hero() {
   return (
@@ -36,18 +38,18 @@ export default function Hero() {
             I share my adventures through my photographs.
           </p>
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
-            <a
+            <Link
               href="/travel"
               className="px-6 py-3 bg-blue-900 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
             >
               Travel
-            </a>
-            <a
+            </Link>
+            <Link
               href="/blog"
               className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
             >
               Blog
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -90,18 +92,18 @@ export default function Hero() {
             from Georgia Tech&apos;s newspaper, The Technique!
             </p>
             <div className="mt-6 flex gap-4 justify-center md:justify-start">
-            <a
+            <Link
                 href="/blog"
                 className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-900 transition"
             >
                 Visit Blog
-            </a>
-            <a
+            </Link>
+            <Link
                 href="/technique"
                 className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
             >
                 Technique Articles
-            </a>
+            </Link>
             </div>
         </div>
         </section>
@@ -144,31 +146,31 @@ export default function Hero() {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4 justify-center">
-          <a
+          <Link
             href="/Diya-Sharma-September-2025.pdf"
             download
             className="px-8 py-3 bg-blue-900 text-white font-semibold rounded-lg shadow hover:bg-blue-950 transition"
           >
             Download Resume
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://www.linkedin.com/in/diyasharma5"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-800 transition"
           >
             LinkedIn
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://github.com/dsharm9148"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-blue-300 text-black font-semibold rounded-lg shadow hover:bg-blue-500 transition"
           >
             GitHub
-          </a>
+          </Link>
         </div>
       </section>
     </div>
