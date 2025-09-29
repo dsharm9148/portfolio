@@ -1,0 +1,13 @@
+---
+title: "My Journey to 20 Countries Before Turning 20"
+date: "2025-09-28"
+image: "/images/blog/20.jpg"
+excerpt: "The best decision of my young life"
+---
+
+When I first set my goal to visit 20 countries before turning 20, it felt like a dream that was probably too big to reach. But now I can say I did it and that the experience has been nothing short of amazing. Over the past year, I traveled to 14 countries in just 8 months, and every single trip taught me something new about the world and also about myself.
+My journey started with the Pacific Program from January to March. I spent six weeks in New Zealand and six weeks in Australia. These countries were breathtaking. New Zealand’s landscapes looked like they were straight out of a movie (litarally lord of the rings). From towering mountains to endless green hills, each view was more stunning than the last. Then Australia was vibrant and full of life from the beaches to the cities. We went to townsville, cairns, magnetic island, port douglas, and then spent three weeks in Syndey. During those weeks, I snorkeled in the great barrier reef and sky dived in Cairns. Nothing could compare to that thrill.
+Before heading back to the states I stopped in Singapore and Japan. Singapore amazed me with its clean modern cityscape. I watched wild otters hunt near the merlion during sunrise. In Japan, I saw cherry blossoms during their peak season and navigated Tokyo, the busiest city in the world.
+Then I joined the Barcelona Program from May to August. This was where my goal really picked up speed. I visited a new country each weekend. I went to Spain, Andorra, Switzerland (twice because I loved it so much), Greece, Germany, Morocco, the UK, Portugal, Scotland, and Ireland. Traveling so quickly from place to place was challenging, but it taught me the value of planning, flexibility, and making the most of every moment. Each country had its own charm, history, and flavor. Japan amazed me with its blend of tradition and modernity, Greece with its stunning islands, and Morocco with its colorful markets and deserts.
+Looking back, I’m incredibly grateful. Traveling young gave me more than just stamps in my passport. It gave me confidence, curiosity, and a sense of connection to the world. It showed me that goals are achievable if you’re determined and that the experiences you gain from travel are far beyond what you can imagine. I set out to visit 20 countries before I turned 20, and I did it. But more than that, I’ve grown, learned, and collected memories I will carry forever.
+If there’s one thing I’ve learned from traveling young, it’s that the world is big, beautiful, and full of opportunities. And sometimes, all it takes is the courage to start exploring.
