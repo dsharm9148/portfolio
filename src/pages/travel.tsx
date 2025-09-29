@@ -5,22 +5,22 @@ import Link from 'next/link';
 
 // List of countries with slugs and example image
 const countries = [
-  { name: 'USA', slug: 'usa', image: '/images/travel/usa/dc.jpg' },
-  { name: 'Canada', slug: 'canada', image: '/images/travel/canada/toronto.jpg' },
-  { name: 'Italy', slug: 'italy', image: '/images/travel/italy/milan.jpg' },
-  { name: 'Japan', slug: 'japan', image: '/images/travel/japan/ueno-park.jpg' },
-  { name: 'NZ', slug: 'nz', image: '/images/travel/nz/milford-sound.jpg' },
-  { name: 'Australia', slug: 'australia', image: '/images/travel/australia/bondi-beach.jpg' },
-  { name: 'Singapore', slug: 'singapore', image: '/images/travel/singapore/gardens-by-the-bay.jpg' },
+  { name: 'USA', slug: 'usa', image: '/images/travel/usa/dc.JPG' },
+  { name: 'Canada', slug: 'canada', image: '/images/travel/canada/toronto.JPG' },
+  { name: 'Italy', slug: 'italy', image: '/images/travel/italy/milan.JPG' },
+  { name: 'Japan', slug: 'japan', image: '/images/travel/japan/ueno-park.JPG' },
+  { name: 'NZ', slug: 'nz', image: '/images/travel/nz/milford-sound.JPG' },
+  { name: 'Australia', slug: 'australia', image: '/images/travel/australia/bondi-beach.JPG' },
+  { name: 'Singapore', slug: 'singapore', image: '/images/travel/singapore/gardens-by-the-bay.JPG' },
   { name: 'Switzerland', slug: 'switzerland', image: '/images/travel/switzerland/first-grindelwald.jpg' },
   { name: 'Spain', slug: 'spain', image: '/images/travel/spain/barcelona.jpg' },
-  { name: 'Andorra', slug: 'andorra', image: '/images/travel/andorra/la-massana.jpg' },
+  { name: 'Andorra', slug: 'andorra', image: '/images/travel/andorra/la-massana.JPG' },
   { name: 'Greece', slug: 'greece', image: '/images/travel/greece/acropolis.jpg' },
   { name: 'Germany', slug: 'germany', image: '/images/travel/germany/munster.jpg' },
   { name: 'Morocco', slug: 'morocco', image: '/images/travel/morocco/sahara-desert.jpg' },
   { name: 'Portugal', slug: 'portugal', image: '/images/travel/portugal/douro-river.jpg' },
-  { name: 'Scotland', slug: 'scotland', image: '/images/travel/scotland/cockburn-street.jpg' },
-  { name: 'Ireland', slug: 'ireland', image: '/images/travel/ireland/cliffs-of-moher.jpg' },
+  { name: 'Scotland', slug: 'scotland', image: '/images/travel/scotland/cockburn-street.JPG' },
+  { name: 'Ireland', slug: 'ireland', image: '/images/travel/ireland/cliffs-of-moher.JPG' },
 ];
 
 export default function Travel() {
