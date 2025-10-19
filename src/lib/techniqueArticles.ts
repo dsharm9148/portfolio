@@ -8,6 +8,12 @@ export type TechniqueArticle = {
 
 export const techniqueArticles: TechniqueArticle[] = [
   {
+    title: "Jackets Volleyball Narrowly Falls to u[sic]ga in McCamish",
+    date: "2025-09-30",
+    excerpt: "Tech volleyball fought hard but ultimately fell to u[sic]ga in a tense five-set match last Friday at McCamish Pavilion.",
+    url: "https://nique.net/sports/2025/09/30/jackets-volleyball-narrowly-falls-to-usicga-in-mccamish/",
+  },
+  {
     title: "Alcaraz and Sabalenka Shine at the 2025 US Open",
     date: "2025-09-16",
     excerpt: "The 2025 U.S. Open Tennis Championships came to a close with two superstars showing why they are at the top of tennis today",
