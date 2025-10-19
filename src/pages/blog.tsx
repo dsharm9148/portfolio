@@ -1,7 +1,11 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { getAllBlogsMetadata, BlogPost } from "../lib/blogs";
+import {
+  BlogPost,
+  getAllBlogSlugs,
+  getBlogContentAsHtml
+} from "../lib/blogs";
 
 export default function BlogPage({ posts }: { posts: BlogPost[] }) {
   const [activePost, setActivePost] = useState<string | null>(null);
@@ -98,15 +102,10 @@ export default function BlogPage({ posts }: { posts: BlogPost[] }) {
 
               <h2 className="text-3xl font-bold mb-2">{activeBlog.title}</h2>
               <p className="text-gray-500 text-sm mb-6">{activeBlog.date}</p>
-              <div className="space-y-4">
-                {activeBlog.content.split("\n").map((paragraph, idx) =>
-                  paragraph.trim() ? (
-                    <p key={idx} className="text-gray-800 leading-relaxed">
-                      {paragraph}
-                    </p>
-                  ) : null
-                )}
-              </div>
+              <div
+                className="prose prose-lg max-w-none text-gray-800 leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: activeBlog.content }}
+              />
             </div>
           </div>
         )}
@@ -118,6 +117,7 @@ export default function BlogPage({ posts }: { posts: BlogPost[] }) {
 
 // Next.js: fetch posts
 export async function getStaticProps() {
-  const posts = getAllBlogsMetadata();
+  const slugs = getAllBlogSlugs();
+  const posts = await Promise.all(slugs.map(slug => getBlogContentAsHtml(slug)));
   return { props: { posts } };
 }

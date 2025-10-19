@@ -7,17 +7,16 @@ import { getAllBlogsMetadata, BlogPost } from "../lib/blogs";
 // Technique articles (manual list for now)
 const techniqueArticles = [
   {
-    title: "Alcaraz and Sabalenka Shine at the 2025 US Open",
-    date: "2025-09-16",
-    excerpt:
-      "The 2025 U.S. Open Tennis Championships came to a close with two superstars showing why they are at the top of tennis today",
-    link: "https://nique.net/sports/2025/09/16/alcaraz-and-sabalenka-shine-at-the-2025-us-open/",
+    title: "Jackets Volleyball Narrowly Falls to u[sic]ga in McCamish",
+    date: "2025-09-30",
+    excerpt: "Tech volleyball fought hard but ultimately fell to u[sic]ga in a tense five-set match last Friday at McCamish Pavilion.",
+    link: "https://nique.net/sports/2025/09/30/jackets-volleyball-narrowly-falls-to-usicga-in-mccamish/",
   },
   {
-    title: "Volleyball Dominates in Georgia Tech Classic",
-    date: "2025-09-09",
-    excerpt: "Tech’s 2025 volleyball season started strong with a perfect 3-0 record",
-    link: "https://nique.net/sports/2025/09/09/volleyball-dominates-in-georgia-tech-classic/",
+    title: "Alcaraz and Sabalenka Shine at the 2025 US Open",
+    date: "2025-09-16",
+    excerpt: "The 2025 U.S. Open Tennis Championships came to a close with two superstars showing why they are at the top of tennis today",
+    link: "https://nique.net/sports/2025/09/16/alcaraz-and-sabalenka-shine-at-the-2025-us-open/",
   },
   // Add more as needed
 ];

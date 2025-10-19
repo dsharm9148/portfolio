@@ -64,6 +64,8 @@ export default function Resume() {
             Download Resume (PDF)
         </a>
         </div>
+        
+
 
         {/* Education */}
         <section id="education" className="mb-10 bg-white p-6 rounded-lg shadow">
@@ -102,7 +104,20 @@ export default function Resume() {
                 Automated data collection and image processing pipelines using Java,
                 MATLAB, and Python.
               </li>
+              <li>
+                First author of upcoming paper. Download manuscript below!! (work in progress)
+              </li>
             </ul>
+          </div>
+          {/* Download Manuscript Button */}
+          <div className="text-center mb-6">
+            <a
+              href="/Diversity of Munc13 and PSD-95 Clusters in Excitatory Synapses onto Different Inhibitory Neuron Subtypes.pdf"
+              download="Diversity of Munc13 and PSD-95 Clusters in Excitatory Synapses onto Different Inhibitory Neuron Subtypes.pdf"
+              className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
+            >
+              Download Manuscript (PDF)
+            </a>
           </div>
 
           <div>
