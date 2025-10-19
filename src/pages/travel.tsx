@@ -18,7 +18,7 @@ const countries = [
   { name: 'Greece', slug: 'greece', image: '/images/travel/greece/acropolis.jpg' },
   { name: 'Germany', slug: 'germany', image: '/images/travel/germany/munster.jpg' },
   { name: 'Morocco', slug: 'morocco', image: '/images/travel/morocco/sahara-desert.jpg' },
-  { name: 'Portugal', slug: 'portugal', image: '/images/travel/portugal/douro-river.jpg' },
+  { name: 'Portugal', slug: 'portugal', image: '/images/travel/portugal/douro-river.JPG' },
   { name: 'Scotland', slug: 'scotland', image: '/images/travel/scotland/cockburn-street.JPG' },
   { name: 'Ireland', slug: 'ireland', image: '/images/travel/ireland/cliffs-of-moher.JPG' },
 ];

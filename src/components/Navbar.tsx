@@ -362,7 +362,7 @@ export default function Navbar() {
                 LinkedIn
               </a>
               <a
-                href="https://www.instagram.com/dsharm55"
+                href="https://www.instagram.com/dsharma.photos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3 py-2 border rounded text-sm font-medium uppercase hover:bg-gray-200 transition-colors"

@@ -114,7 +114,7 @@ export default function Resume() {
             <a
               href="/Diversity of Munc13 and PSD-95 Clusters in Excitatory Synapses onto Different Inhibitory Neuron Subtypes.pdf"
               download="Diversity of Munc13 and PSD-95 Clusters in Excitatory Synapses onto Different Inhibitory Neuron Subtypes.pdf"
-              className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
+              className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
             >
               Download Manuscript (PDF)
             </a>
