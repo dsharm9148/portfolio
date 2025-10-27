@@ -160,6 +160,16 @@ export default function Navbar() {
               </ul>
             </div>
           </div>
+          {/* SPORTS */}
+          <Link
+            href="/sports"
+            className={`transition cursor-pointer ${
+              scrolled ? "hover:text-gray-600" : "hover:text-gray-300"
+            }`}
+          >
+            SPORTS
+          </Link>
+
 
           {/* PLACES */}
           <div className="relative group">
@@ -288,6 +298,16 @@ export default function Navbar() {
                   ))}
                 </ul>
               )}
+            </li>
+              {/* SPORTS */}
+            <li>
+              <Link
+                href="/sports"
+                className="block w-full text-left px-3 py-2 rounded hover:bg-gray-200 transition-colors font-medium"
+                onClick={() => setMenuOpen(false)}
+              >
+                SPORTS
+              </Link>
             </li>
 
             {/* PLACES */}
