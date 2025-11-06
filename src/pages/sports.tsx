@@ -57,7 +57,7 @@ export default function Sports({ galleryData }: SportsProps) {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="min-h-screen bg-white text-black scroll-smooth">
       <Navbar />
 
       {/* Buffer for navbar */}
@@ -66,8 +66,21 @@ export default function Sports({ galleryData }: SportsProps) {
           Sports Photography Gallery
         </h1>
 
+        {/* Section Shortcut Buttons */}
+        <div className="flex flex-wrap justify-center gap-3 mb-10">
+          {galleryData.map(({ folder }) => (
+            <a
+              key={folder}
+              href={`#${folder}`}
+              className="bg-gray-200 hover:bg-gray-300 text-black px-4 py-2 rounded transition text-sm font-medium"
+            >
+              {folder.replace(/_/g, " ")}
+            </a>
+          ))}
+        </div>
+
         {galleryData.map(({ folder, files }) => (
-          <div key={folder} className="mb-12">
+          <div key={folder} id={folder} className="mb-12 scroll-mt-28">
             <h2 className="text-2xl font-medium mb-4 border-b border-gray-300 pb-2">
               {folder.replace(/_/g, " ")}
             </h2>
