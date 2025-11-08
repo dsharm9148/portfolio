@@ -2,7 +2,7 @@
 title: "My Journey to 20 Countries Before Turning 20"
 date: "2025-09-28"
 image: "/images/blog/20.jpg"
-excerpt: "The best decision of my young life"
+excerpt: "The best decision of my life"
 ---
 
 When I first set my goal to visit 20 countries before turning 20, it felt like a dream that was probably too big to reach. But now I can say I did it and that the experience has been nothing short of amazing. Over the past year, I traveled to 14 countries in just 8 months, and every single trip taught me something new about the world and also about myself.
