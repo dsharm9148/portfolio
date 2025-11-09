@@ -8,22 +8,34 @@ export type TechniqueArticle = {
 
 export const techniqueArticles: TechniqueArticle[] = [
   {
+    title: "Jackets sting Duke, improve to best start since 1966",
+    date: "2025-10-20",
+    excerpt: "The Jackets continued their dream football season with an impressive 27-18 victory over the Duke University Blue Devils, improving their record to 7-0 (4-0 ACC).",
+    url: "https://nique.net/690e743caf9fbe84fb0c72dd",
+  },
+  {
+    title: "Tech Football Stays Perfect, Rolls Past Virginia Tech 35-20",
+    date: "2025-10-20",
+    excerpt: "The Jackets kept their perfect season alive with a 35-20 win over Virginia Tech on Saturday at Bobby Dodd Stadium.",
+    url: "https://nique.net/690e743caf9fbe84fb0c72dc",
+  },
+  {
     title: "Jackets Volleyball Narrowly Falls to u[sic]ga in McCamish",
     date: "2025-09-30",
     excerpt: "Tech volleyball fought hard but ultimately fell to u[sic]ga in a tense five-set match last Friday at McCamish Pavilion.",
-    url: "https://nique.net/sports/2025/09/30/jackets-volleyball-narrowly-falls-to-usicga-in-mccamish/",
+    url: "https://nique.net/690e7436f7fc30a0e018e6bd",
   },
   {
     title: "Alcaraz and Sabalenka Shine at the 2025 US Open",
     date: "2025-09-16",
     excerpt: "The 2025 U.S. Open Tennis Championships came to a close with two superstars showing why they are at the top of tennis today",
-    url: "https://nique.net/sports/2025/09/16/alcaraz-and-sabalenka-shine-at-the-2025-us-open/",
+    url: "https://nique.net/690e7435f7fc30a0e018e697",
   },
   {
     title: "Volleyball Dominates in Georgia Tech Classic",
     date: "2025-09-09",
     excerpt: "Tech’s 2025 volleyball season started strong with a perfect 3-0 record",
-    url: "https://nique.net/sports/2025/09/09/volleyball-dominates-in-georgia-tech-classic/",
+    url: "https://nique.net/690e7434f7fc30a0e018e687",
   },
   {
     title: "Jackets sweep Golden Bears, fall to Cardinals",
