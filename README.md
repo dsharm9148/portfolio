@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# personal-site
 
-## Getting Started
+Diya Sharma — minimalist editorial portfolio. Next.js 16 (App Router) · React 19 · Tailwind 4 · Framer Motion.
 
-First, run the development server:
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm run build        # production build (static)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Routes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Path | What's there |
+|---|---|
+| `/` | Hero word-reveal + numbered index of sections / external links |
+| `/about` | Long-form bio + facts sidebar |
+| `/projects` | TrainSmartAI, UMB ML, Spotify Wrapper case studies |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+External links (résumé, LinkedIn, GitHub, photography site) live in the footer and on the home `Index`.
 
-## Learn More
+## Where to edit
 
-To learn more about Next.js, take a look at the following resources:
+| Change | File |
+|---|---|
+| Name, tagline, social links | `src/lib/site.ts` |
+| Project list | `src/lib/projects.ts` |
+| About copy | `src/app/about/page.tsx` |
+| Home headline | `src/components/HeroReveal.tsx` |
+| Color palette / fonts | `src/app/globals.css` + `src/app/layout.tsx` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Drop your résumé PDF at `public/resume.pdf` (referenced by `site.links.resume`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy to Vercel
 
-## Deploy on Vercel
+```bash
+# from this folder
+npx vercel           # first push, follow prompts
+npx vercel --prod    # promote to production
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or push to a GitHub repo and import it at vercel.com/new — no config needed.
