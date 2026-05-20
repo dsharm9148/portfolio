@@ -23,10 +23,30 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
+const SITE_URL = "https://diyasharma.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Diya Sharma",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Diya Sharma",
+    template: "%s — Diya Sharma",
+  },
   description:
-    "Diya Sharma — computer science & neuroscience at Georgia Tech. Selected work, writing, and photography.",
+    "Diya Sharma — Computer Science at Georgia Tech. Projects, writing, and a bit of photography.",
+  openGraph: {
+    title: "Diya Sharma",
+    description:
+      "Computer Science at Georgia Tech — projects, writing, and a bit of photography.",
+    url: SITE_URL,
+    siteName: "Diya Sharma",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Diya Sharma",
+    description:
+      "Computer Science at Georgia Tech — projects, writing, and a bit of photography.",
+  },
 };
 
 export default function RootLayout({
